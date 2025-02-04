@@ -4,11 +4,11 @@ int main() {
     scanf("%c",&a);
     if(a=="A"){
         printf("Uppercase");
-    }else if(a=="z"){
+    }else (a=="a"){
         printf("Lowercase");
-    }else{
-        printf("Not an alphabet");
-    }
+    }//else{
+        //printf("Not an alphabet");
+    //}
  
     return 0;
 }
