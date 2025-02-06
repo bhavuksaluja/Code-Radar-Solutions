@@ -2,7 +2,6 @@
 
 int main() {
     int year;
-    printf("Enter the value:");
     scanf("%d", &year);
 
     if (year % 4 = 0) {
