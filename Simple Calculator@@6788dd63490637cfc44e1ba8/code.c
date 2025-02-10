@@ -24,7 +24,7 @@ int main() {
     }else if (d != '+','-','*','/'){
         printf("error");
     } else {
-        printf("error");
+        printf("Invalid operators");
     }
 
     return 0;
