@@ -8,7 +8,8 @@ int main() {
     divide=a%b
     subraction=a-b
     if(a,b,+){
-        printf("%d",sum);  }
+        printf("%d",sum);
+         }
     
     return 0;
 }
