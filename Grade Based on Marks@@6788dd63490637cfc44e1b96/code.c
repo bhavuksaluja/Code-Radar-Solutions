@@ -10,7 +10,7 @@ if(n<=100&&n>=90){
     printf("C");
 }else if (n<=70&&n>60){
     printf("D");
-}else(n<60){
+}else{
     printf("F");
 }
 return 0;
