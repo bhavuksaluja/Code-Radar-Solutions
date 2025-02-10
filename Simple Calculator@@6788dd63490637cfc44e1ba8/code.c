@@ -12,12 +12,16 @@ int main() {
     division = (float)a / b;
     if (d == '+') {
         printf("%d", sum);
+        break
     } else if (d == '-') {
         printf("%d", subtraction);
+        break
     } else if (d == '*') {
         printf("%d", multiply);
+        break
     } else if (d == '/') {
         printf("%.2f", division);
+        break
     } else {
         printf("Invalid operator");
     }
