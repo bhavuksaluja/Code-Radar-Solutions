@@ -13,7 +13,7 @@ int main() {
         printf("error");
     } else {
         division = (float)a / b;
-    }
+    
 
         if (d == '+') {
             printf("%d", sum);
