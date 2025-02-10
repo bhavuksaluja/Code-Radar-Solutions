@@ -4,7 +4,7 @@ int main() {
     char d;
     scanf("%d%d%c",&a,&b,&c);
     sum=a+b
-    multiply+a*b
+    multiply=a*b
     divide=a%b
     subraction=a-b
     if(a,b,+){
