@@ -22,7 +22,7 @@ int main() {
         } else if (d == '*') {
             printf("%d", multiply);
         } else if (d == '/') {
-            printf("%.2f", division);
+            printf("%.0f", division);
         } else {
             printf("Invalid operator");
         }
