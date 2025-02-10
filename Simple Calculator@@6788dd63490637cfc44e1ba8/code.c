@@ -14,7 +14,7 @@ int main() {
     printf("%d",subtraction);
  }else if(a,b,"*") {
     printf("%d",multiply);
- }else{printf("%d"division);
+ }else{printf("%d",division);
  } 
     return 0;
 }
