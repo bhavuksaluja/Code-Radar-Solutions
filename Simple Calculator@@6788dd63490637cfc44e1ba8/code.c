@@ -11,7 +11,7 @@ int main() {
  division = (float)a/b;
  if(d == '+'){
     printf("%d",sum);
- }else if(d == '+'){
+ }else if(d == '-'){
     printf("%d",subtraction);
  }else if(d == '*') {
     printf("%d",multiply);
