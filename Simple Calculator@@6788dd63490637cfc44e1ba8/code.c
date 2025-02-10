@@ -6,13 +6,13 @@ int main() {
     int division;
     char d;
     
-    
-    scanf("%d %d %c", &a, &b, &d);
+    // Fix: Add spaces to allow proper reading of integers and operator
+    scanf("%d %d %c", &a, &b, &d);  // space between %d %d %c for better input handling
 
     sum = a + b;
     multiply = a * b;
     subtraction = a - b;
-    division = a / b;
+    division = (int)a / b;
 
     if (d == '+') {
         printf("%d", sum);
