@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <math.h>
-
 int main() {
     int a, b, sum, multiply, subtraction;
-    int division;
+    float division;
     char d;
     
     // Fix: Add spaces to allow proper reading of integers and operator
