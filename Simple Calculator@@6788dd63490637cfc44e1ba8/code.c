@@ -7,12 +7,12 @@ int main() {
  int sum=a+b;
  int multiply=a*b;
  int subtraction =a-b;
- int division = a%b;
- if(d == +){
+ int division = a/b;
+ if(d == '+'){
     printf("%d",sum);
- }else if(d == -){
+ }else if(d == '+'){
     printf("%d",subtraction);
- }else if(d == *) {
+ }else if(d == '*') {
     printf("%d",multiply);
  }else{printf("%d",division);
  } 
