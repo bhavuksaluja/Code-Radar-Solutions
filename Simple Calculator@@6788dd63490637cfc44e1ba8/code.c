@@ -8,11 +8,11 @@ int main() {
  int multiply=a*b;
  int subtraction =a-b;
  int division = a%b;
- if(+) {
+ if(a,b,"+") {
     printf("%d",sum);
- }else if(-){
+ }else if(a,b,"-"){
     printf("%d",subtraction);
- }else if(*) {
+ }else if(a,b,"*") {
     printf("%d",multiply);
  }else{printf("%d"division);
  } 
