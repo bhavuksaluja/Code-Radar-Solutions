@@ -21,6 +21,8 @@ int main() {
         printf("%d", multiply);
     } else if (d == '/') {
         printf("%.0f", division);
+    }else if (d != '+','-','*','/'){
+        printf("error");
     } else {
         printf("error");
     }
