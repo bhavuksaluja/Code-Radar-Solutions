@@ -1,13 +1,13 @@
 #include <stdio.h>
 // #include<math.h>
 int main() {
- int a,b;
+ int a,b,sum,multiply, subtraction,division;
  char d;
  scanf("%d%d%c",&a,&b,&c);
- int sum = a+b;
- int multiply= a*b;
- int subtraction = a-b;
- int division = a/b;
+ sum = a+b;
+  multiply= a*b;
+ subtraction = a-b;
+  division = a/b;
  if(d == '+'){
     printf("%d",sum);
  }else if(d == '+'){
