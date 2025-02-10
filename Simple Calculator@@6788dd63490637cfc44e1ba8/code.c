@@ -5,9 +5,9 @@ int main() {
  char d;
  scanf("%d%d%c",&a,&b,&c);
  sum = a+b;
-  multiply= a*b;
+ multiply= a*b;
  subtraction = a-b;
-  division = a/b;
+ division = a/b;
  if(d == '+'){
     printf("%d",sum);
  }else if(d == '+'){
