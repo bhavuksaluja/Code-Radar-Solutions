@@ -21,7 +21,7 @@ int main() {
     } else if (d == '*') {
         printf("%d", multiply);
     } else if (d == '/') {
-        printf("%", division);
+        printf("%d", division);
     } else {
         printf("Invalid operator");
     }
