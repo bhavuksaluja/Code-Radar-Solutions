@@ -4,10 +4,10 @@ int main() {
  int a,b;
  char d;
  scanf("%d%d%c",&a,&b,&c);
- int sum=a+b;
- int multiply=a*b;
- int subtraction =a-b;
- int division = a%b;
+ sum=a+b;
+ multiply=a*b;
+ subtraction =a-b;
+ division = a%b;
  if(a,b,"+") {
     printf("%d",sum);
  }else if(a,b,"-"){
