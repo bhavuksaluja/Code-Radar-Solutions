@@ -19,7 +19,7 @@ int main() {
     printf("%d",division);
  } 
  else{
-    printf("error")
+    printf("error");
  }
     return 0;
 }
