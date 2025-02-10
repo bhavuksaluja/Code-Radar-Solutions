@@ -3,7 +3,7 @@
 int main() {
  int a,b,sum,multiply, subtraction,division;
  char d;
- scanf("%d%d%c",&a,&b,&c);
+ scanf("%d%d%c",&a,&b,&d);
  sum = a+b;
  multiply= a*b;
  subtraction = a-b;
