@@ -4,13 +4,13 @@ int main() {
     printf("Enter three sides of the triangle: ");
     scanf("%d %d %d", &side1, &side2, &side3);
     if (side1 == side2 && side2 == side3) {
-        printf("Equilateral\n");
+        printf("Equilateral");
     }
     else if (side1 == side2 || side2 == side3 || side1 == side3) {
-        printf("Isosceles\n");
+        printf("Isosceles");
     }
     else {
-        printf("Scalene\n");
+        printf("Scalene");
     }
     return 0;
 }
