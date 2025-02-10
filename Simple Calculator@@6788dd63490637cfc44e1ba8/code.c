@@ -3,7 +3,7 @@
 
 int main() {
     int a, b, sum, multiply, subtraction;
-    float division;
+    int division;
     char d;
     
     
@@ -12,7 +12,7 @@ int main() {
     sum = a + b;
     multiply = a * b;
     subtraction = a - b;
-    division = (float)a / b;
+    division = a / b;
 
     if (d == '+') {
         printf("%d", sum);
@@ -21,7 +21,7 @@ int main() {
     } else if (d == '*') {
         printf("%d", multiply);
     } else if (d == '/') {
-        printf("%.2f", division);
+        printf("%", division);
     } else {
         printf("Invalid operator");
     }
