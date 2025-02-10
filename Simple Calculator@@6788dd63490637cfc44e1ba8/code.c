@@ -11,7 +11,7 @@ int main() {
     sum = a + b;
     multiply = a * b;
     subtraction = a - b;
-    division = (int)a / b;
+    division = (float)a / b;
 
     if (d == '+') {
         printf("%d", sum);
