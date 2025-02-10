@@ -15,7 +15,7 @@ int main() {
     printf("%d",subtraction);
  }else if(d == '*') {
     printf("%d",multiply);
- }else{printf("%d",division);
+ }else{printf("%f",division);
  } 
     return 0;
 }
