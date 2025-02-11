@@ -4,7 +4,7 @@ int main(){
     scanf("%c",&x);
     if(x=a,e,i,o,u,A,E,I,O,U){
         printf("Vowel");
-    }else (x != a,e,i,o,u,A,E,I,O,U){
+    }else if(x==isalpha()){
         printf("Consonant");
     }
     return 0;
