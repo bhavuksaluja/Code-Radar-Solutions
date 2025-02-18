@@ -3,7 +3,8 @@
 int main() {
     int num;
     scanf("%d", &num);
-    if (num & 10) {
+    int bitpostion= sizeof(num);
+    if (num & 1) {
         printf("Set");
     } else {
         printf("Not Set");
