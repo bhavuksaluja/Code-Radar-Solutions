@@ -1,13 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
     int n;
+
+    printf("Enter the number of rows: ");
     scanf("%d", &n);
-    for (int i = n; i <= 1; i++) { 
-        for (int j = 1; j <= i; j++) {
-            printf("* ");
+
+    for (int i = 1; i <= n; i++) {  // Loop for rows
+        for (int j = 1; j <= i; j++) {  // Loop for stars
+            printf("*");
         }
-        printf("\n");
+        printf("\n");  // Move to the next line after each row
     }
 
     return 0;
 }
+
