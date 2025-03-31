@@ -1,8 +1,8 @@
 #include <stdio.h>
 void prime();
 int main(){
-    
-    void prime();
+void prime();
+return 0;
 }
 void prime(){
     int a, count=0;
