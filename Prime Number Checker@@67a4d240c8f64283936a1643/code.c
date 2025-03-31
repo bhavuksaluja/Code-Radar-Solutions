@@ -8,7 +8,7 @@ void prime(){
     int a, count=0;
     scanf("%d",&a);
    
-        if (a%i==0){
+        if (a==0){
             count++;
         
 
